@@ -1,18 +1,19 @@
 {
-  "name": "iobroker.victronadapter",
-  "version": "0.6.3",
+  "name": "iobroker.VictronAdapter",
+  "version": "0.6.4",
   "description": "ioBroker adapter for Victron GX and Cerbo GX systems via Modbus TCP.",
   "author": "FreeProgrammer1",
   "license": "MIT",
-  "homepage": "https://github.com/FreeProgrammer1/ioBroker.victronadapter#readme",
+  "homepage": "https://github.com/FreeProgrammer1/iobroker.VictronAdapter#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FreeProgrammer1/ioBroker.victronadapter.git"
+    "url": "https://github.com/FreeProgrammer1/iobroker.VictronAdapter.git"
   },
   "bugs": {
-    "url": "https://github.com/FreeProgrammer1/ioBroker.victronadapter/issues"
+    "url": "https://github.com/FreeProgrammer1/iobroker.VictronAdapter/issues"
   },
   "keywords": [
+    "ioBroker",
     "victron",
     "cerbo",
     "gx",
@@ -34,17 +35,18 @@
     "test:js": "node --check main.js && node --check lib/modbusClient.js && node --check lib/registerMap.js && node --check lovelace/victronadapter-card.js",
     "test:unit": "node --test test/*.test.js",
     "test:package": "npm pack --dry-run",
-    "lint": "node --check main.js && node --check lib/modbusClient.js && node --check lib/registerMap.js && node --check lovelace/victronadapter-card.js",
-    "adapter-check": "npx --yes @iobroker/repochecker https://github.com/FreeProgrammer1/ioBroker.victronadapter --local"
+    "lint": "eslint .",
+    "adapter-check": "npx --yes @iobroker/repochecker https://github.com/FreeProgrammer1/iobroker.VictronAdapter --local"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^3.4.1"
   },
   "devDependencies": {
-    "@iobroker/eslint-config": "^2.0.0",
+    "@iobroker/adapter-dev": "^1.0.1",
+    "@iobroker/eslint-config": "^2.3.4",
     "@iobroker/testing": "^5.2.2",
-    "@tsconfig/node22": "^22.0.2",
-    "@types/node": ">=22"
+    "@tsconfig/node22": "^22.0.5",
+    "@types/node": "^22.0.0"
   },
   "files": [
     "admin",
@@ -56,6 +58,9 @@
     "package.json",
     "README.md",
     "LICENSE",
-    "tsconfig.json"
+    "tsconfig.json",
+    "eslint.config.mjs",
+    "prettier.config.mjs",
+    "CHANGELOG_OLD.md"
   ]
 }

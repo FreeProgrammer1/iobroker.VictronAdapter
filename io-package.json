@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "victronadapter",
-    "version": "0.6.3",
+    "version": "0.6.4",
     "titleLang": {
       "en": "Victron",
       "de": "Victron",
@@ -46,8 +46,8 @@
     "mode": "daemon",
     "icon": "victronadapter.svg",
     "enabled": false,
-    "extIcon": "https://raw.githubusercontent.com/FreeProgrammer1/ioBroker.victronadapter/main/admin/victronadapter.svg",
-    "readme": "https://github.com/FreeProgrammer1/ioBroker.victronadapter/blob/main/README.md",
+    "extIcon": "https://raw.githubusercontent.com/FreeProgrammer1/iobroker.VictronAdapter/main/admin/victronadapter.svg",
+    "readme": "https://github.com/FreeProgrammer1/iobroker.VictronAdapter/blob/main/README.md",
     "loglevel": "info",
     "type": "energy",
     "compact": true,
@@ -68,18 +68,18 @@
       }
     ],
     "news": {
-      "0.6.3": {
-        "en": "Fixes repository metadata, JSONConfig responsiveness, translations, README structure and CI files for ioBroker checks.",
-        "de": "Korrigiert Repository-Metadaten, JSONConfig-Responsiveness, Übersetzungen, README-Struktur und CI-Dateien für ioBroker-Prüfungen.",
-        "ru": "Исправлены метаданные репозитория, адаптивность JSONConfig, переводы, структура README и CI-файлы для проверок ioBroker.",
-        "pt": "Corrige metadados do repositório, responsividade JSONConfig, traduções, estrutura README e arquivos CI para verificações ioBroker.",
-        "nl": "Corrigeert repositorymetadata, JSONConfig-responsiviteit, vertalingen, README-structuur en CI-bestanden voor ioBroker-controles.",
-        "fr": "Corrige les métadonnées du dépôt, la réactivité JSONConfig, les traductions, la structure README et les fichiers CI pour les contrôles ioBroker.",
-        "it": "Corregge metadati del repository, responsività JSONConfig, traduzioni, struttura README e file CI per i controlli ioBroker.",
-        "es": "Corrige metadatos del repositorio, capacidad responsive de JSONConfig, traducciones, estructura README y archivos CI para comprobaciones ioBroker.",
-        "pl": "Poprawia metadane repozytorium, responsywność JSONConfig, tłumaczenia, strukturę README i pliki CI dla kontroli ioBroker.",
-        "uk": "Виправлено метадані репозиторію, адаптивність JSONConfig, переклади, структуру README і CI-файли для перевірок ioBroker.",
-        "zh-cn": "修正仓库元数据、JSONConfig 响应式设置、翻译、README 结构和用于 ioBroker 检查的 CI 文件。"
+      "0.6.4": {
+        "en": "Fixes ioBroker checker metadata, lint configuration, translations and workflow files.",
+        "de": "Korrigiert ioBroker-Checker-Metadaten, Lint-Konfiguration, Übersetzungen und Workflow-Dateien.",
+        "ru": "Исправлены метаданные проверки ioBroker, конфигурация lint, переводы и файлы workflow.",
+        "pt": "Corrige metadados do verificador ioBroker, configuração lint, traduções e workflows.",
+        "nl": "Corrigeert ioBroker-checkermetadata, lint-configuratie, vertalingen en workflowbestanden.",
+        "fr": "Corrige les métadonnées du vérificateur ioBroker, la configuration lint, les traductions et les workflows.",
+        "it": "Corregge metadati del checker ioBroker, configurazione lint, traduzioni e workflow.",
+        "es": "Corrige metadatos del verificador ioBroker, configuración lint, traducciones y workflows.",
+        "pl": "Poprawia metadane sprawdzania ioBroker, konfigurację lint, tłumaczenia i workflow.",
+        "uk": "Виправлено метадані перевірки ioBroker, конфігурацію lint, переклади та workflow.",
+        "zh-cn": "修正 ioBroker 检查元数据、lint 配置、翻译和工作流文件。"
       }
     },
     "licenseInformation": {
