@@ -22,31 +22,6 @@ The npm package name is:
 iobroker.victronadapter
 ```
 
-## Important upload note
-
-If old files are still present in GitHub, the checker will continue to report old errors. Before uploading this version, delete or remove these stale files from the repository:
-
-```text
-.npmignore
-.prettierignore
-CHANGELOG.md
-ADAPTER_CHECK_REPORT.md
-admin/index.html
-admin/i18n/de/
-admin/i18n/en/
-admin/i18n/ru/
-admin/i18n/pt/
-admin/i18n/nl/
-admin/i18n/fr/
-admin/i18n/it/
-admin/i18n/es/
-admin/i18n/pl/
-admin/i18n/uk/
-admin/i18n/zh-cn/
-```
-
-Helper scripts are included in `tools/`.
-
 ## Features
 
 - Reads Victron GX and Cerbo GX systems via Modbus TCP
